@@ -1,0 +1,20 @@
+{
+  "scope": "Historical stand5 GPU descriptors plus frozen CPU postprocessing; software parity fixture, not new inference",
+  "checkpoint_sha256": "300b1c0ba907fa90ceacc38693713789cfb2a8b83248fd585fadb0d059381fdd",
+  "native_rejection_lock_sha256": "9e560082161446f39ff1487f52b1dbc9b37ccba3a0e0026fc5099392980bc245",
+  "files_sha256": {
+    "embeddings.npy": "5c6b15774f63f18e7b9ac4e4343271d0f29c585ff980463507c8ba4e6002a022",
+    "embedding_order.json": "0528409d9f31e58db19a5e28eaf1256d4ddda5efec9fa544e6d0632c2920a789",
+    "submission.csv": "47b88985959f0f1847e64cc1402cabb5eb680c235704cf5f7d0937c879abd7b2",
+    "candidates.csv": "f0922dd4b82a651a0b9d89afa58864fda5e9627f1049f3e8b2fa86ab8edae82b"
+  },
+  "native_model_methods_ast_sha256": {
+    "forward": "beb0316fc677a94b9b686c06d02a4a842f6d51e274d47aaa7cafd4702afa092f",
+    "embed_batch": "529fc83e4de874766e06b9cadcb89d379d7c6d3c1fc12534407d2a67c1516cdb"
+  },
+  "official_quality": {
+    "mAP@10": 0.8213928358081584,
+    "F1": 0.9026548672566371,
+    "TNR": 1.0
+  }
+}

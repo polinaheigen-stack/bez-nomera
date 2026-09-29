@@ -1,0 +1,51 @@
+{
+  "adapter": "e27_compact",
+  "artifacts": {
+    "calibration": {
+      "file": "calibration.json",
+      "sha256": "a16951450428fa4d20bc53197417e81605bae5c78c11e054958ddc0474a616a0"
+    },
+    "config": {
+      "file": "config.json",
+      "sha256": "1317407484fb54c839041e78968f72249e080233f50f8ed86cb7cba207ba2d73"
+    },
+    "protocol": {
+      "file": "protocol.json",
+      "sha256": "09748d6ceabf72535cb7f0ca3129564f39249c95f11d978b8992ade27bd85101"
+    },
+    "recipe": {
+      "file": "frozen-recipe.json",
+      "sha256": "583d92a49cf1572faaff7adbab8b08b8c392fde2df362baf817001dbb2d934d0"
+    },
+    "weights": {
+      "file": "model.pth",
+      "sha256": "300b1c0ba907fa90ceacc38693713789cfb2a8b83248fd585fadb0d059381fdd"
+    }
+  },
+  "inference": {
+    "adapter_revision": 1,
+    "dependency_versions": {
+      "Pillow": "11.3.0",
+      "numpy": "2.2.6",
+      "safetensors": "0.6.2",
+      "timm": "1.0.20",
+      "torch": "2.8.0",
+      "torchvision": "0.23.0"
+    },
+    "preprocessing": "native_stand5_checkpoint",
+    "score": "kreciprocal_top1_times_gallery_support"
+  },
+  "model": {
+    "dimension": 384,
+    "name": "E27",
+    "version": "e27-dinov3-smallplus256-fast32-gallery4nn-p2"
+  },
+  "provenance": {
+    "control_used_for_selection": false,
+    "inference_code_sha256": "ccc9d42ae4a7a481f4b524ea78f57dce69ef6d8296e777f8fe38129847db724a",
+    "original_checkpoint_source_sha256": "b7d3c57e2bdc777e4b216fc4dbf06019e37df401a6541a84b05505d7d031b84a"
+  },
+  "schema_version": 1,
+  "status": "ready",
+  "weights_bytes": 118036485
+}

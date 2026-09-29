@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "release": "E27",
+  "original_stand5_gpu_completed": true,
+  "new_training_performed": false,
+  "gpu_encoder_benchmark_reused": true,
+  "selected_fast_extractor_gpu_benchmark_completed": true,
+  "selected_fast_extractor_gpu_vectors_cpu_acceptance_completed": true,
+  "integrated_e27_gpu_acceptance_performed": false,
+  "native_GPU_vs_fast_GPU_feature_parity_established": true,
+  "CPU_inference_vs_GPU_numerical_parity_established": false,
+  "parity_scope": "native saved GPU vs selected fast GPU vectors; cal/control batch/single; max_abs<=1e-5",
+  "quality_scope": "Official quality of selected FastExtractor GPU vectors; frozen postprocessing; historical control",
+  "raw_embedding_export": "unchanged float32 L2-normalized; query CSV then gallery CSV",
+  "gallery_mixing": "gallery only; simultaneous original descriptors; stable index ties; self excluded",
+  "support": "3 neighbours of final top1 from original gallery; no other query input",
+  "control_is_independent_holdout": false
+}

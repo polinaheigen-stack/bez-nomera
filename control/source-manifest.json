@@ -1,0 +1,31 @@
+{
+  "checkpoint_sha256": "300b1c0ba907fa90ceacc38693713789cfb2a8b83248fd585fadb0d059381fdd",
+  "derived_export": true,
+  "e27_web_docker_acceptance": false,
+  "encoder_gpu_measured": true,
+  "files_sha256": {
+    "README.md": "bb821e9dba0cb8e4e8d33f7065db787db3ad96ad02f1d5416b8726079443ecc0",
+    "candidates.csv": "681440a11b612e9056d13f6cc426df7800ae7a10a4c1b9fa2711aa001e25d873",
+    "control-manifest.json": "c9086114a409d76f89a2f72828c1f8498c6b3b771bd43cf33fa7e15346ff4096",
+    "embedding_order.json": "5544fbf8489bc4acee48fe2f48abad5f34891677db7fe839e211a79a84a19f8c",
+    "embeddings.npy": "aa29af32128023c46e68abe3911b844bc22f3716311ff4a1583ee5a5eed751b6",
+    "gallery.csv": "535f266a58ded829adc0f4ca9abae2bb2cf8f4a0537f6e74a1862175e292e123",
+    "ground_truth.csv": "d2a67b57a76fd0c4c0056d37c9deb917651a847b180228b483474130faca7369",
+    "official_report.json": "675b1835c09c0c0a5a2ae5463bc4fc3fdf45be194eacf494cf33a4676f39e931",
+    "query.csv": "7fe62d4f24456dfbc0b18eadc9e2b7677d614c29a0f4da59db78da7193929a75",
+    "submission.csv": "29ea9e6e3780c58fa15963d9b79cc0eda6977b399d71917e34ba22c10a0ebfb3"
+  },
+  "historical_control_used_in_research": true,
+  "independent_holdout": false,
+  "original_embeddings_sha256": "aa29af32128023c46e68abe3911b844bc22f3716311ff4a1583ee5a5eed751b6",
+  "postprocessing_evaluated_on_cpu": true,
+  "schema_version": 1,
+  "scope": "Serialized accepted decisions and original accelerated GPU FP32 vectors; quality was scored by the prior strict CPU acceptance, no new inference or scoring performed during packaging.",
+  "source_sha256": {
+    "acceptance_report": "2307cd2cd5cdb56c35067a2246fb65dc0c87e780e0576fd8bf7cc9fce5d72790",
+    "accepted_decisions": "24e2a8dd569124d90256449d37a87221d19d0904e367caf067b9b4b166e35c0d",
+    "gpu_collector_provenance": "ba2777329daf2eea42caaab3361c3df6f6c14204bf35faeb6fa2320869ffee05",
+    "gpu_embeddings": "aa29af32128023c46e68abe3911b844bc22f3716311ff4a1583ee5a5eed751b6"
+  },
+  "threshold": 0.713592811641558
+}

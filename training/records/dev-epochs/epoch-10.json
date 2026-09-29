@@ -1,0 +1,29 @@
+{
+  "epoch": 10,
+  "official_raw_ranking": {
+    "n_scored": 176,
+    "n_openset_excluded": 44,
+    "mAP@10": 0.5994100228475229,
+    "Rank-1": 0.6363636363636364,
+    "Rank-5": 0.8125
+  },
+  "selection_metric": "mAP@10",
+  "retrieval": "raw cosine top10, stable ties; official junk filtering without refill",
+  "evaluator_sha256": "655c71db8c2e4d2cd7680c40c768afacfdffff360401111c1a46df921551ffa3",
+  "dev_files": {
+    "query": {
+      "path": "/inputs/dev_query.csv",
+      "sha256": "e6d5597f5de5507bee800175bfc1baf7358e634ce21e5f4fe3ff4ae40801afac"
+    },
+    "gallery": {
+      "path": "/inputs/dev_gallery.csv",
+      "sha256": "b4dfddf0f7bd9d284035e1c618d9415fa047a949ef06dd1389b9d0704fb56e30"
+    },
+    "ground_truth": {
+      "path": "/inputs/dev_ground_truth.csv",
+      "sha256": "42557e0ef07aff3cba37ddad0316e9a87f55eb52c3bdd859d3774ce22bb82327"
+    }
+  },
+  "calibration_or_control_used": false,
+  "independent_quality_claim_allowed": false
+}

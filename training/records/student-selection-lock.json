@@ -1,0 +1,12 @@
+{
+  "checkpoint": {
+    "path": "/results/trial/training/compact.pt",
+    "sha256": "300b1c0ba907fa90ceacc38693713789cfb2a8b83248fd585fadb0d059381fdd",
+    "bytes": 118036485
+  },
+  "frozen_at_utc": "2026-09-29T01:00:00.132873+00:00",
+  "selection": "maximum dev official raw cosine mAP@10",
+  "calibration_or_control_used_for_selection": false,
+  "data_contract_sha256": "67deb7d43386387fdc6940d0ae6d33aae4ef3b155cfb2a43a4aa0a4a579425fa",
+  "source_sha256": "f8116f4cf9b44cd64653d42972a972364155311621e5e43ea234958fb5cba9f3"
+}

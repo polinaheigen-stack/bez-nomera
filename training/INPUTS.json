@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "source_dataset_train_sha256": "bd1df45b052ae9aabb7fd356898e244875f8cad2f111a3f76977c1b90bce9268",
+  "historical_diagnostic_splits": true,
+  "independent_quality_claim_allowed": false,
+  "files": {
+    "inputs/dev_gallery.csv": {
+      "sha256": "b4dfddf0f7bd9d284035e1c618d9415fa047a949ef06dd1389b9d0704fb56e30",
+      "rows": 914
+    },
+    "inputs/dev_ground_truth.csv": {
+      "sha256": "42557e0ef07aff3cba37ddad0316e9a87f55eb52c3bdd859d3774ce22bb82327",
+      "rows": 1134
+    },
+    "inputs/dev_query.csv": {
+      "sha256": "e6d5597f5de5507bee800175bfc1baf7358e634ce21e5f4fe3ff4ae40801afac",
+      "rows": 220
+    },
+    "inputs/identity-map.csv": {
+      "sha256": "6c567cb5f182fa6a4573bd1af0ceb98b946c25e89730564ab14ed9de022b02a4",
+      "rows": 9024
+    },
+    "inputs/train.csv": {
+      "sha256": "ab941b00912046d291ffa1746e0dfbd9cf2f24e02a5b52366ce41ed36d5eab2f",
+      "rows": 6804
+    },
+    "inputs/val.csv": {
+      "sha256": "d1c44fdd73c5035583923e27c0d127db371bf11e00871156b7c95bacb91f326c",
+      "rows": 1134
+    }
+  }
+}

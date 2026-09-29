@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "release": "E27",
+  "selected_stand": 5,
+  "selected_epoch": 14,
+  "checkpoint_sha256": "300b1c0ba907fa90ceacc38693713789cfb2a8b83248fd585fadb0d059381fdd",
+  "extraction": {
+    "mode": "fast",
+    "workers": 4,
+    "precision": "fp32",
+    "pin_memory": true,
+    "batch_size": 32,
+    "torch_cpu_threads": 2,
+    "tf32": false,
+    "source_sha256": "4d030490ebabec5e054c38bb398669b791cb015922ecea8a8eb815d955288645"
+  },
+  "retrieval": {
+    "type": "e27_gallery_support",
+    "top_k": 50,
+    "k1": 5,
+    "lambda_value": 0.6,
+    "gallery_neighbors": 4,
+    "mix": 0.25,
+    "support_neighbors": 3,
+    "alpha": 0.5,
+    "reject_all": false,
+    "score_domain": "kreciprocal_top1_times_gallery_support",
+    "query_expansion": false
+  },
+  "threshold": 0.713592811641558,
+  "native_rejection_lock_sha256": "9e560082161446f39ff1487f52b1dbc9b37ccba3a0e0026fc5099392980bc245",
+  "native_study_result_sha256": "0cff3322acd0fd2aa71295f652a857344645bffb06d5f50ebfe51833f84c9df0",
+  "fast_selection_sha256": "89836703d9272af04d3be98da2f50fd36654dbdf80c55a6cc7e8d6995bb3c135",
+  "fast_gpu_acceptance_sha256": "2307cd2cd5cdb56c35067a2246fb65dc0c87e780e0576fd8bf7cc9fce5d72790",
+  "selection": "dev ranking recipe; calibration maximum F1 subject to TNR>=0.95",
+  "control_used_for_selection": false,
+  "historical_control_is_independent": false
+}

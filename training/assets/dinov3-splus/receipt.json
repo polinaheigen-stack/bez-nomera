@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "repository": "timm/vit_small_plus_patch16_dinov3.lvd1689m",
+  "revision": "c35074f0e1a65242948168c9358ce26705c4deb2",
+  "architecture": "vit_small_plus_patch16_dinov3",
+  "license": "DINOv3",
+  "files": {
+    "model.safetensors": {
+      "sha256": "423e7b4b1103de4100a5c19a436cc00f1a994d82835ed51623b209ccfd1e9615",
+      "bytes": 114750056
+    },
+    "config.json": {
+      "sha256": "003e19711e5e10ab5a4a1082fdb2669db286e3888bad4372fcf1029a68d40dcc",
+      "bytes": 675
+    },
+    "README.md": {
+      "sha256": "343bd032f5895dbb222556998955116378185418a9fbec1ff76cb5aab709f507",
+      "bytes": 7912
+    },
+    "LICENSE.md": {
+      "sha256": "25d122eb8f5b880fd23c736fb6ea8018ee45c12237e00b8a86d14c653904999e",
+      "bytes": 7503
+    }
+  }
+}

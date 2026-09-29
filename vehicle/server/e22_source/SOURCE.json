@@ -1,0 +1,26 @@
+{
+  "commit": "1025da3dd24d6325b4885fff388d86391b79140e",
+  "role": "supplied_reproduction_source_not_proof_of_training_commit",
+  "files": {
+    "convnext.py": {
+      "path": "train/backend/app/convnext.py",
+      "sha256": "86236cbbb2caf8eb09ec4850245c1ef9f7de1fe0f79ea7a3ab2110daec6e111b"
+    },
+    "dinov2.py": {
+      "path": "train/backend/app/dinov2.py",
+      "sha256": "9a886988ee24ef9e4d71f12a8cbd8a92332959091014ad5a60019eec633a57a7"
+    },
+    "metric_heads.py": {
+      "path": "train/backend/app/metric_heads.py",
+      "sha256": "5e87ffb326bb81c2d1edb88b04380e72e4acb6bbf5e93945573d9b5573a914f6"
+    },
+    "image_utils.py": {
+      "path": "train/backend/app/image_utils.py",
+      "sha256": "fd351979b9e1a6df72588c518dea24409a4d8a448f03239997ffbe9570481ea7"
+    },
+    "preprocess.py": {
+      "path": "train/backend/app/preprocess.py",
+      "sha256": "d4fe6852c93c5ff13a5ab04806375b3a190e023393d7314d56e8d9f0791bb08f"
+    }
+  }
+}

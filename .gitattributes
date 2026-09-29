@@ -1,0 +1,19 @@
+# Working text is stored and checked out as LF on every platform.
+* text=auto eol=lf
+
+# Preserve original bytes and hashes of frozen evidence and training sources.
+# cr-at-eol accepts CRLF in these original files; other whitespace checks remain active.
+/control/** -text whitespace=cr-at-eol
+/docs/sources/** -text whitespace=cr-at-eol
+/licenses/** -text whitespace=cr-at-eol
+/training/assets/** -text whitespace=cr-at-eol
+/training/inputs/** -text whitespace=cr-at-eol
+/training/profiles/** -text whitespace=cr-at-eol
+/training/records/** -text whitespace=cr-at-eol
+/training/runtime/** -text whitespace=cr-at-eol
+/vehicle/server/stand5_native/** -text whitespace=cr-at-eol
+/vehicle/server/e22_source/** -text whitespace=cr-at-eol
+/vehicle/server/reidkit_source/** -text whitespace=cr-at-eol
+/vehicle/tests/fixtures/** -text whitespace=cr-at-eol
+/vehicle/server/reidkit_adapter.py -text whitespace=cr-at-eol
+/vehicle/server/fast_extract.py -text whitespace=cr-at-eol

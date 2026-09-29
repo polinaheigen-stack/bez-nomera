@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "stand_id": 5,
+  "model": "vit_small_plus_patch16_dinov3.lvd1689m",
+  "image_size": 256,
+  "embedding_dim": 384,
+  "epochs": 20,
+  "P": 8,
+  "K": 4,
+  "seed": 20260929,
+  "lr_backbone": 2E-05,
+  "lr_head": 0.001,
+  "weight_decay": 0.01,
+  "warmup_epochs": 2,
+  "label_smoothing": 0.1,
+  "kd_temperature": 0.1,
+  "kd_weight": 1.0,
+  "inference_batch": 8,
+  "workers": 1,
+  "selection": "maximum_dev_raw_official_map_at_10",
+  "independent_quality_claim_allowed": false
+}

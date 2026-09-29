@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F5F7FA" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b5f83'/%3E%3Cpath d='M8 12V8h4m8 0h4v4m0 8v4h-4m-8 0H8v-4M10 16h12' fill='none' stroke='white' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <meta name="description" content="Без номера — стенд визуального поиска автомобиля среди снимков. Трек 7, Фалькон.Тех." />
+    <title>Поиск автомобиля</title>
+    <script>
+      (function () { var t = 'system'; try { t = localStorage.getItem('vehicle-theme') || 'system'; } catch (_) {} document.documentElement.dataset.theme = t === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t; document.documentElement.style.colorScheme = document.documentElement.dataset.theme; })();
+    </script>
+  </head>
+  <body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body>
+</html>

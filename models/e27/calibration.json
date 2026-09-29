@@ -1,0 +1,12 @@
+{
+  "control_used_for_selection": false,
+  "inference_config_sha256": "1317407484fb54c839041e78968f72249e080233f50f8ed86cb7cba207ba2d73",
+  "model_sha256": "300b1c0ba907fa90ceacc38693713789cfb2a8b83248fd585fadb0d059381fdd",
+  "native_rejection_lock_sha256": "9e560082161446f39ff1487f52b1dbc9b37ccba3a0e0026fc5099392980bc245",
+  "protocol_sha256": "09748d6ceabf72535cb7f0ca3129564f39249c95f11d978b8992ade27bd85101",
+  "recipe_sha256": "583d92a49cf1572faaff7adbab8b08b8c392fde2df362baf817001dbb2d934d0",
+  "schema_version": 1,
+  "score_domain": "kreciprocal_top1_times_gallery_support",
+  "source_sha256": "ccc9d42ae4a7a481f4b524ea78f57dce69ef6d8296e777f8fe38129847db724a",
+  "threshold_score": 0.713592811641558
+}

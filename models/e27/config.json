@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "name": "E27",
+  "encoder": {
+    "schema_version": 1,
+    "timm_model": "vit_small_plus_patch16_dinov3.lvd1689m",
+    "image_size": [
+      256,
+      256
+    ],
+    "native_dimension": 384,
+    "embedding_dim": 384,
+    "pooling": "native_pre_logits",
+    "projection": "linear384_layernorm_l2",
+    "preprocessing": "owned_reidkit_bicubic_letterbox_imagenet",
+    "flip_tta": false,
+    "training_amp": "cuda_bfloat16_if_supported_else_float32",
+    "inference_precision": "float32_autocast_off_tf32_off",
+    "pretrained_sha256": "423e7b4b1103de4100a5c19a436cc00f1a994d82835ed51623b209ccfd1e9615"
+  },
+  "checkpoint_provenance": {
+    "source_sha256": {
+      "compact_model.py": "c3d9cc90c3e8af53612f77a9c76e443711c3efd377d2ee340d6d618904b97350",
+      "compact_learning.py": "8d1dc67d9487fe9883b2b1a3216e8440a983934bb623eb0b1cf3a43b58da37c9",
+      "reidkit_adapter.py": "4bf999485d2ff0ec338bad5981ecf163a69c317f0dd7d40c6294978126ce7afa",
+      "reidkit_source/model.py": "0050bceed5d093acebca038fff7c1c0c6ce3dc8547869ae8bc99df9c0d8cf686",
+      "frame_buffer.py": "c6f4783f8449290a92e46a4e365a09fba8e2db800699a391e359ece32d843f1a",
+      "batch.py": "90a0a4e66b4ec54e9263e62c06760001e950f8ab3b399f41bdde046a1def5da3",
+      "retrieval.py": "7e4b86ecbb5d8e2c9a0a4d6979052571faaa2a19080a0ac553b2aeb1305832c9",
+      "e25_rerank.py": "6eef2ebd048e257737a67b0218d7e1e9658269c985125c55b23d9da5eff73620",
+      "validation.py": "39cc26c4f270be1d6bdb0a1f3ef2f5b2c8ae08d717b686055ec30b61723f402b",
+      "evaluation.py": "eaf3ab458d8f58f12916a0ae7faf3f810d8f79160cdbe640602c23a60c347071"
+    },
+    "pretrained_sha256": "423e7b4b1103de4100a5c19a436cc00f1a994d82835ed51623b209ccfd1e9615",
+    "initial_model_state_sha256": "b278cbf71bf2ca0a3f998ebb7a7bc918dce56643af631b0b18fa46cab3c1a267",
+    "selection_basis": "dev_raw_retrieval_mAP@10",
+    "control_used_for_selection": false
+  },
+  "model_batch_size": "requested_batch_max32",
+  "extraction": {
+    "mode": "fast",
+    "workers": 4,
+    "precision": "fp32",
+    "pin_memory": true,
+    "batch_size": 32,
+    "torch_cpu_threads": 2,
+    "tf32": false,
+    "source_sha256": "4d030490ebabec5e054c38bb398669b791cb015922ecea8a8eb815d955288645"
+  },
+  "retrieval": {
+    "type": "e27_gallery_support",
+    "top_k": 50,
+    "k1": 5,
+    "lambda_value": 0.6,
+    "gallery_neighbors": 4,
+    "mix": 0.25,
+    "support_neighbors": 3,
+    "alpha": 0.5,
+    "reject_all": false,
+    "score_domain": "kreciprocal_top1_times_gallery_support",
+    "query_expansion": false
+  }
+}
